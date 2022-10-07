@@ -1,0 +1,25 @@
+{
+  "name": "micolorization",
+  "displayName": "MiColorization",
+  "description": "Michael's Colorization Syntax Extension",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "micolorization",
+      "aliases": ["MiColorization", "micolorization"],
+      "extensions": [".colorize"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "micolorization",
+      "scopeName": "",
+      "path": "./syntaxes/micolorization.tmLanguage.json"
+    }]
+  }
+}
